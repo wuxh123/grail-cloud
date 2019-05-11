@@ -20,4 +20,9 @@ spring cloud快速开发框架
 
 ### 9 	grail-monitor-center 	监控中心 	Spring Boot Admin实现
 
-### 10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码                                                                                           
+### 10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码     
+
+## 传送门
+### layui版前端: https://github.com/wuxh123/grail-layui
+### vue版前端:https://github.com/wuxh123/grail-vue
+### 代码生成器:https://github.com/wuxh123/grail-generater
