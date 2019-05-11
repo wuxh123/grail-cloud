@@ -22,6 +22,8 @@ spring cloud快速开发框架
 
 10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码     
 
+## 运行如图
+![run](https://github.com/wuxh123/grail-cloud/tree/master/img)
 ## 传送门
 layui版前端: https://github.com/wuxh123/grail-layui
 
