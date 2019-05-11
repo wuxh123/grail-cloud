@@ -22,6 +22,9 @@ spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 
 10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码     
 
+# 必要安装
+redis、rabbitmq、elasticsearch、mysql
+
 ## 运行如图
  ![img](https://github.com/wuxh123/grail-cloud/blob/master/img/projects.png)
 ## 传送门
