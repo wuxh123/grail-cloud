@@ -1,5 +1,5 @@
 # grail-cloud
-spring cloud快速开发框架
+spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 
 ## 框架工程
 1 	grail-register-center 	注册中心 	Spring Cloud Eureka实现
