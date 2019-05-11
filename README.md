@@ -2,9 +2,8 @@
 spring cloud快速开发框架
 
 ## 框架工程
-### 1 	grail-register-center 	注册中心 	Spring Cloud Eureka实现
-
-### 2 	grail-config-center 	配置中心 	Spring Cloud Config实现，配置文件支持本地或者git
+ 1 	grail-register-center 	注册中心 	Spring Cloud Eureka实现
+ 2 	grail-config-center 	配置中心 	Spring Cloud Config实现，配置文件支持本地或者git
 
 ### 3 	grail-user-center 	    用户中心 	用户、角色、权限、绑定手机号、微信网页公众号授权
 
