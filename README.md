@@ -26,7 +26,7 @@ spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 redis、rabbitmq、elasticsearch、mysql
 
 ## 运行如图
- ![img](https://github.com/wuxh123/grail-cloud/blob/master/img/projects.png)
+ ![img](img/projects.png)
 ## 传送门
 layui版前端: https://github.com/wuxh123/grail-layui
 
