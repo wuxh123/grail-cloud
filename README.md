@@ -25,6 +25,9 @@ spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 # 必要安装
 redis、rabbitmq、elasticsearch、mysql
 
+# 非必要安装
+hadoop hbase zipkin
+
 ## 运行如图
  ![img](img/projects.png)
 ## 传送门
