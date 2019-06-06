@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "HBase.nodes",
+    "type": "java.lang.String",
+    "description": "A description for 'HBase.nodes'"
+  },
+  {
+    "name": "HBase.maxsize",
+    "type": "java.lang.String",
+    "description": "A description for 'HBase.maxsize'"
+  }
+]}

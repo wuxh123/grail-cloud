@@ -1,0 +1,12 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 7081
+  connection-timeout: 5000ms
+  servlet:
+    context-path: /hadoop
+    session:
+      timeout: 7200
