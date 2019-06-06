@@ -23,10 +23,65 @@ spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码     
 
 # 必要安装
-redis、rabbitmq、elasticsearch、mysql
+redis、rabbitmq、elasticsearch、mysql、Lombok
 
 # 非必要安装
 hadoop hbase zipkin
+
+# 配置host
+好处：配置host后，就不用更改config中ip地址，就可以运行起来。所以最好使用hosts配置。
+
+linux和windows的hosts配置可以百度
+
+127.0.0.1 api.gateway.com
+
+127.0.0.1 local.gateway.com 
+
+127.0.0.1 local.register.com 
+
+127.0.0.1 local.monitor.com 
+
+127.0.0.1 local.mysql.com 
+
+127.0.0.1 local.redis.com
+
+127.0.0.1 local.rabbitmq.com 
+
+
+# 模块说明
+1	grail-config-center	配置中心
+
+2	grail-file-center	文件中心
+
+3	grail-gateway-zuul	网关
+
+4	grail-log-center	日志中心
+
+5	grail-manage-backend	管理后台
+
+6	grail-monitor-center	监控中心
+
+7	grail-oauth-center	认证中心
+
+8	grail-register-center	注册中心
+
+9	grail-user-center	用户中心
+
+10	grail-notification-center	通知中心
+
+11 grail-hbase hbase操作模块
+
+# 启动顺序
+1.	第一步启动注册中心
+
+2.	第二步启动配置中心，目前配置中心拉取的是我的git的配置，可以更改。
+
+3. 用户中心、通知中心、授权中心、文件服务、日志中心、后台管理、监控，最后启动zuul网关
+
+4. 启动UI
+http://localhost:8080/api-b/login.html
+用户名admin 密码admin
+
 
 ## 运行如图
  ![img](img/projects.png)
