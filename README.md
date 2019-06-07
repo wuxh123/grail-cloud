@@ -20,7 +20,8 @@ spring cloud快速开发框架，spring cloud版本Finchley.RELEASE
 
 9 	grail-monitor-center 	监控中心 	Spring Boot Admin实现
 
-10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码     
+10 	grail-notification-center 	通知中心 	阿里云短信、发送验证码   
+11 grail-hbaser            hbase使用类
 
 # 必要安装
 redis、rabbitmq、elasticsearch、mysql、Lombok
